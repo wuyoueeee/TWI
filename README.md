@@ -142,13 +142,7 @@ pip install -r requirements.txt
 # 访问 https://ollama.ai 下载并运行 'ollama run llava'
 ```
 
-### 6.2 模型训练
-如需使用自定义数据增强模型性能：
-```bash
-python train.py --epochs 100 --batch 16 --config config.yaml
-```
-
-### 6.3 启动系统
+### 6.2 启动系统
 启动 Web 可视化界面：
 ```bash
 python run_web_advanced.py
